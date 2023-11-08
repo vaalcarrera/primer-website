@@ -1,0 +1,343 @@
+/*Todo*/
+
+@font-face {
+    font-family: mandalore;
+    src: url(Fuente/mandalore3d.ttf);
+}
+
+body {
+    background-color: #D9D9D9;
+    margin: 0;
+    border: none;
+}
+
+button {
+    background-color: #75ab86;
+    border-radius: 15px;
+    border-color: #fdcd38;
+    width: 165px;
+    height: 35px;
+}
+
+button a {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+/*MENU*/
+
+nav {
+    height: 60px;
+    text-align: end;
+    background-color: #444468;
+}
+
+nav ul {
+    list-style: none; /* SIMBOLO DE LISTA*/
+    display: inline-block; /*Coloca los elementos de la lista en una sóla línea*/
+}
+
+nav ul li {
+    margin-right: 40px;
+    width: 150px;
+    float: left;
+    padding-right: 10px;
+}
+
+#shadow {
+    text-shadow: 0px 0px 10px #f2e3aa;
+}
+
+nav ul li a {
+    font-family: sans-serif;
+    font-weight: lighters;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/*LOGO*/
+
+#logo {
+    position: relative;
+    z-index: 2;
+}
+
+#logo img {
+    width: 70px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/*INICIO*/
+
+.index {
+    background: linear-gradient(-15deg, #f2e3aa 38%, #D9D9D9 60%);
+}
+
+#grogu img {
+    width: 470px;
+    height: max-content;
+    float: right;
+    margin-left: 20px;
+    margin-right: 80px;
+    margin-top: -640px;
+}
+
+.section {
+    clear: both;
+}
+
+#texto1 h1 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-right: 500px;
+    z-index: 0;
+    padding: 30px;
+}
+
+#texto1 h2 {
+    color: black;
+    font-family: 'mandalore', mandalore3d;
+    font-size: 148px;
+    margin-left: 145px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+/*Disney+*/
+
+.disney {
+    background-image: url(Imagenes/mandalorian3.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+#mandalorian4 img{
+    margin-top: 1px;
+    margin-left: 30px;
+    width: 50%;
+    position: relative;
+}
+
+#trailer iframe{
+    margin-top: 1px;
+    margin-left: 45px;
+    width: 630px;
+    height: 315px;
+}
+
+#boton {
+    margin-top: 27px;    
+    margin-left: 270px;
+}
+
+/*Sobre mi*/
+
+.am {
+    background-color: #f2e3aa;
+}
+
+#texto {
+    font-family: sans-serif;
+}
+
+#texto h1{
+    font-size: 50px;
+    position: relative;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#texto2 p{
+    width: 800px;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#capsula img{
+    position: relative;
+    float: right;
+    margin-top: -500px;
+    margin-right: 50px;
+}
+
+#capsula img:hover {
+    transform: scale(1,1);
+    transition: 1s;
+    margin-right: 80px;
+}
+
+#boton .sobremi {
+    float: right;
+    margin-top: -150px;
+    margin-right: 146px;
+}
+
+/*Contacto*/
+
+.contact {
+    background: linear-gradient(to right, #f2e3aa 48%, grey 2%, #D9D9D9 50%);
+}
+
+#texto3 {
+    font-family: sans-serif;
+    width: 60%;
+    position: absolute;
+}
+
+#texto3 h2{
+    font-size: 50px;
+    position: relative;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+#texto3 h3{
+    font-weight: 300;
+    width: 800px;
+    font-size: 30px;
+    margin-left: 70px;
+    margin-right: 0;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+#mensaje4 {
+    font-family: sans-serif;
+    display: flex;
+    margin-right: 30px;
+    margin-left: 810px;
+    margin-top: 10px;
+}
+
+#mensaje4 h3 {
+    font-weight: 400;
+    width: 700px;
+    font-size: 30px;
+}
+#rrss {
+    position: absolute;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 390px;
+}
+
+#rrss a {
+    text-decoration: none;
+}
+
+#rrss img{
+    width: 100px;
+}
+
+form{
+    display: block;
+    margin-left: 55%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: grey;
+    width: 500px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+input, textarea{
+    width: 100%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border-color: #fdcd38;
+    background-color: white;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 8px;
+}
+
+#enviar {
+    margin-left: 145px;
+}
+
+footer {
+    background-color: #000066;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h6{
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 700px;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 280px;
+}
+
+/*MENSAJE*/
+
+#punto {
+    margin-left: 410px;
+    margin-top: -30px;
+}
+
+#mensaje {
+    margin-left: 410px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+#mensaje h4 {
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 700px;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#footer2 {
+    height: 100px;
+}
+
+#segh6 {
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+#rrss2 {
+    position: absolute;
+    margin-left: 130px;
+}
+.imgf a {
+    text-decoration: none;
+}
+
+.imgf a img{
+    width: 60px;
+    height: 60px;
+}
